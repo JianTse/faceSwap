@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="swap">
+      <UniqueIdentifier>{b3f27149-a657-4813-9428-2a7380314129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ldmark_clnf">
+      <UniqueIdentifier>{26643e00-6419-4a79-a2d0-c89731b059e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mtcnn">
+      <UniqueIdentifier>{d4c0590f-8256-46e0-9cfc-81a336a7ae0c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="swap\swap.h">
+      <Filter>swap</Filter>
+    </ClInclude>
+    <ClInclude Include="ldmark_clnf\CCNF_patch_expert.h">
+      <Filter>ldmark_clnf</Filter>
+    </ClInclude>
+    <ClInclude Include="ldmark_clnf\CEN_patch_expert.h">
+      <Filter>ldmark_clnf</Filter>
+    </ClInclude>
+    <ClInclude Include="ldmark_clnf\CNN_utils.h">
+      <Filter>ldmark_clnf</Filter>
+    </ClInclude>
+    <ClInclude Include="ldmark_clnf\ImageManipulationHelpers.h">
+      <Filter>ldmark_clnf</Filter>
+    </ClInclude>
+    <ClInclude Include="ldmark_clnf\Landmark_clnf.h">
+      <Filter>ldmark_clnf</Filter>
+    </ClInclude>
+    <ClInclude Include="ldmark_clnf\LandmarkCoreIncludes.h">
+      <Filter>ldmark_clnf</Filter>
+    </ClInclude>
+    <ClInclude Include="ldmark_clnf\LandmarkDetectionValidator.h">
+      <Filter>ldmark_clnf</Filter>
+    </ClInclude>
+    <ClInclude Include="ldmark_clnf\LandmarkDetectorFunc.h">
+      <Filter>ldmark_clnf</Filter>
+    </ClInclude>
+    <ClInclude Include="ldmark_clnf\LandmarkDetectorModel.h">
+      <Filter>ldmark_clnf</Filter>
+    </ClInclude>
+    <ClInclude Include="ldmark_clnf\LandmarkDetectorParameters.h">
+      <Filter>ldmark_clnf</Filter>
+    </ClInclude>
+    <ClInclude Include="ldmark_clnf\LandmarkDetectorUtils.h">
+      <Filter>ldmark_clnf</Filter>
+    </ClInclude>
+    <ClInclude Include="ldmark_clnf\Patch_experts.h">
+      <Filter>ldmark_clnf</Filter>
+    </ClInclude>
+    <ClInclude Include="ldmark_clnf\PAW.h">
+      <Filter>ldmark_clnf</Filter>
+    </ClInclude>
+    <ClInclude Include="ldmark_clnf\PDM.h">
+      <Filter>ldmark_clnf</Filter>
+    </ClInclude>
+    <ClInclude Include="ldmark_clnf\RotationHelpers.h">
+      <Filter>ldmark_clnf</Filter>
+    </ClInclude>
+    <ClInclude Include="ldmark_clnf\SVR_patch_expert.h">
+      <Filter>ldmark_clnf</Filter>
+    </ClInclude>
+    <ClInclude Include="mtcnn_facedetect\mtcnn_opencv.h">
+      <Filter>mtcnn</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="faceSwap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="swap\swap.cpp">
+      <Filter>swap</Filter>
+    </ClCompile>
+    <ClCompile Include="ldmark_clnf\CCNF_patch_expert.cpp">
+      <Filter>ldmark_clnf</Filter>
+    </ClCompile>
+    <ClCompile Include="ldmark_clnf\CEN_patch_expert.cpp">
+      <Filter>ldmark_clnf</Filter>
+    </ClCompile>
+    <ClCompile Include="ldmark_clnf\CNN_utils.cpp">
+      <Filter>ldmark_clnf</Filter>
+    </ClCompile>
+    <ClCompile Include="ldmark_clnf\Landmark_clnf.cpp">
+      <Filter>ldmark_clnf</Filter>
+    </ClCompile>
+    <ClCompile Include="ldmark_clnf\LandmarkDetectionValidator.cpp">
+      <Filter>ldmark_clnf</Filter>
+    </ClCompile>
+    <ClCompile Include="ldmark_clnf\LandmarkDetectorFunc.cpp">
+      <Filter>ldmark_clnf</Filter>
+    </ClCompile>
+    <ClCompile Include="ldmark_clnf\LandmarkDetectorModel.cpp">
+      <Filter>ldmark_clnf</Filter>
+    </ClCompile>
+    <ClCompile Include="ldmark_clnf\LandmarkDetectorParameters.cpp">
+      <Filter>ldmark_clnf</Filter>
+    </ClCompile>
+    <ClCompile Include="ldmark_clnf\LandmarkDetectorUtils.cpp">
+      <Filter>ldmark_clnf</Filter>
+    </ClCompile>
+    <ClCompile Include="ldmark_clnf\Patch_experts.cpp">
+      <Filter>ldmark_clnf</Filter>
+    </ClCompile>
+    <ClCompile Include="ldmark_clnf\PAW.cpp">
+      <Filter>ldmark_clnf</Filter>
+    </ClCompile>
+    <ClCompile Include="ldmark_clnf\PDM.cpp">
+      <Filter>ldmark_clnf</Filter>
+    </ClCompile>
+    <ClCompile Include="ldmark_clnf\SVR_patch_expert.cpp">
+      <Filter>ldmark_clnf</Filter>
+    </ClCompile>
+    <ClCompile Include="mtcnn_facedetect\mtcnn_opencv.cpp">
+      <Filter>mtcnn</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
